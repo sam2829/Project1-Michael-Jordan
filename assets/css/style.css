@@ -68,5 +68,9 @@ nav li {
 #main-section {
     height: 800px;
     width: 100%;
-    background-image: url(../)
+    background-image: url(../images/mj6.jpg);
+    background-color: #333;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
