@@ -74,3 +74,85 @@ nav li {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* grid layout for michael quotes in main section */
+
+#main-section-grid {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, minmax(100px, auto));
+}
+
+.quote-1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.quote-2 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.quote-3 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.quote-4 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.quote-5 {
+    grid-column: 5/6;
+    grid-row: 4/5;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.quote-6 {
+    grid-column: 5/6;
+    grid-row: 6/7;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
