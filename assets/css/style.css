@@ -1,3 +1,8 @@
+/* Impot of font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +11,16 @@
 
 body {
     background-color: #fff;
+
+}
+
+/* Main Heading */
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 10px;
 }
