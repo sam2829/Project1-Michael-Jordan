@@ -11,7 +11,7 @@
 
 body {
     background-color: #fff;
-
+    font-family: roboto, sans-serif;
 }
 
 /* Main Heading */
@@ -23,4 +23,30 @@ h1 {
     color: #3a3a3a;
     text-align: center;
     padding: 10px;
+}
+
+/* nav links bar */
+
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 0.6rem;
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+    font-size: 2rem;
+}
+
+nav a:hover {
+    background-color: #555;
 }
