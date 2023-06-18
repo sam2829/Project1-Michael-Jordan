@@ -156,3 +156,59 @@ nav li {
     text-align: center;
     font-size: 1.2rem;
 }
+
+/* grid layout for others quotes in sub section */
+
+#others-quotes-section {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    font-size: 1.2rem;
+}
+
+.pro-quote-1 {
+    grid-column: 1/2;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+}
+
+.pro-quote-2 {
+    grid-column: 2/3;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+}
+
+.pro-quote-3 {
+    grid-column: 3/4;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+}
+
+.pro-quote-4 {
+    grid-column: 4/5;
+    padding: 0.6rem;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+}
+
+#other-quotes-section span {
+    font-style: italic;
+}
+
+#others-quotes-section p {
+    text-align: center;
+    padding: 0.6rem;
+}
