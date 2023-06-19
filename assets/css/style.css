@@ -65,7 +65,7 @@ nav li {
 
 /* main section and background image */
 
-#main-section {
+.main-section {
     height: 800px;
     width: 100%;
     background-image: url(../images/mj6.jpg);
@@ -77,16 +77,16 @@ nav li {
 
 /* grid layout for michael quotes in main section */
 
-#main-section-grid {
+.main-section-grid {
     display: grid;
     max-width: 100%;
     margin: 0 auto;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(8, minmax(100px, auto));
 }
 
 .quote-1 {
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 2/3;
     padding: 0.6rem;
     color: #fff;
@@ -98,7 +98,7 @@ nav li {
 }
 
 .quote-2 {
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 4/5;
     padding: 0.6rem;
     color: #fff;
@@ -110,7 +110,7 @@ nav li {
 }
 
 .quote-3 {
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 6/7;
     padding: 0.6rem;
     color: #fff;
@@ -122,7 +122,7 @@ nav li {
 }
 
 .quote-4 {
-    grid-column: 5/6;
+    grid-column: 4/5;
     grid-row: 2/3;
     padding: 0.6rem;
     color: #fff;
@@ -134,7 +134,7 @@ nav li {
 }
 
 .quote-5 {
-    grid-column: 5/6;
+    grid-column: 4/5;
     grid-row: 4/5;
     padding: 0.6rem;
     color: #fff;
@@ -146,7 +146,7 @@ nav li {
 }
 
 .quote-6 {
-    grid-column: 5/6;
+    grid-column: 4/5;
     grid-row: 6/7;
     padding: 0.6rem;
     color: #fff;
@@ -223,7 +223,7 @@ footer {
 .social-networks {
     width: 100%;
     height: 150px;
-    text-align:center;
+    text-align: center;
     padding-top: 75px;
 }
 
@@ -235,4 +235,78 @@ footer ul {
 footer li {
     flex: 1 1 1;
     padding: 1rem;
+}
+
+/* style for about page main section */
+
+.stat-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 1.8rem 0.6rem 0.6rem 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.stat-2 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding: 1.8rem 0.6rem 0.6rem 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.stat-3 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    padding: 1.8rem 0.6rem 0.6rem 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.stat-4 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    padding: 1.8rem 0.6rem 0.6rem 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.stat-5 {
+    grid-column: 4/5;
+    grid-row: 4/5;
+    padding: 1.2rem 0.6rem 0.6rem 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.stat-6 {
+    grid-column: 4/5;
+    grid-row: 6/7;
+    padding: 1.8rem 0.6rem 0.6rem 0.6rem;
+    color: #fff;
+    background-color: rgba(241, 16, 16, 0.85);
+    margin: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
 }
