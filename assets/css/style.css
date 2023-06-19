@@ -159,7 +159,7 @@ nav li {
 
 /* grid layout for others quotes in sub section */
 
-#others-quotes-section {
+.others-sub-section {
     display: grid;
     max-width: 100%;
     margin: 0 auto;
