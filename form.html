@@ -34,9 +34,42 @@
     </header>
     <!--Main section with background image and quotes from michael-->
     <section class="main-section">
-        <div class="main-section-grid"></div>
+        <div class="main-section-grid">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="vote-form">
+                <h2>Lets Vote!</h2>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" required class="text-input">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" required class="text-input">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required class="text-input">
+                <h3>Whos is the greatest?</h3>
+                <input type="radio" id="michael" name="who-is-the-greatest" value="michael" required>
+                <label for="michael">Michael Jordan</label>
+                <hr>
+                <input type="radio" id="magic" name="who-is-the-greatest" value="magic" required>
+                <label for="magic">Magic Johnson</label>
+                <hr>
+                <input type="radio" id="lebron" name="who-is-the-greatest" value="lebron" required>
+                <label for="lebron">Lebron James</label>
+                <hr>
+                <input type="radio" id="kobe" name="who-is-the-greatest" value="kobe" required>
+                <label for="kobe">Kobe Bryant</label>
+                <hr>
+                <input type="radio" id="larry" name="who-is-the-greatest" value="larry" required>
+                <label for="larry">Larry Bird</label>
+                <hr>
+                <input type="radio" id="kareem" name="who-is-the-greatest" value="kareem" required>
+                <label for="kareem">Kareem</label>
+                <hr>
+                <input type="radio" id="other" name="who-is-the-greatest" value="other" required>
+                <label for="other">Other</label>
+                <hr>
+                <input class="vote-button" type="submit" value="Let's Vote!">
+            </form>
+        </div>
     </section>
-     <!--Footer section with links to social media-->
+    <!--Footer section with links to social media-->
     <footer>
         <ul class="social-networks">
             <li>
