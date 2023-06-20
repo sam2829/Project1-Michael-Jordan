@@ -402,3 +402,14 @@ form>input {
     background-color: #555;
     color: #fff;
 }
+
+/* style for gallery */
+
+.main-section-gallery {
+    height: 800px;
+    width: 100%;
+    background-color: #333;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
