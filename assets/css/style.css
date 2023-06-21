@@ -230,11 +230,18 @@ footer {
 footer ul {
     display: flex;
     justify-content: center;
+    list-style-type: none;
 }
 
 footer li {
     flex: 1 1 1;
     padding: 1rem;
+}
+
+footer a {
+    color: #333;
+    font-size: 200%;
+    margin: 0 2rem 0 2rem;
 }
 
 /* style for about page main section */
