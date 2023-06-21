@@ -505,12 +505,8 @@ form>input {
 
     /* others sub section on main page */
     .others-sub-section {
-        display: grid;
-        max-width: 100%;
-        margin: 0 auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(100px, auto));
-        font-size: 1.2rem;
     }
 
     .pro-quote-1 {
@@ -553,4 +549,95 @@ form>input {
         grid-column: 2/3;
         grid-row: 2/3;
     }
+}
+
+/* media queries for medium size screens from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    /* main section for screen sizes from 950px wide and down */
+    .main-section {
+        height: 1100px;
+    }
+
+    .quote-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .quote-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .quote-3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .quote-4 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .quote-5 {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .quote-6 {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    /* sub section main page for screen sizes from 950px wide and down */
+
+    .others-sub-section {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, minmax(100px, auto));
+    }
+
+    .pro-quote-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .pro-quote-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .pro-quote-3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .pro-quote-4 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    /* sub section about page for screen sizes from 950px wide and down */
+
+    .stat-quote-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .stat-quote-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .stat-quote-3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .stat-quote-4 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+
 }
