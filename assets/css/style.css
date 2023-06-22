@@ -672,6 +672,19 @@ form>input {
         grid-column: 1/2;
         grid-row: 4/5;
     }
+}
 
+/* media queries for medium size screens from 950px wide and down */
+@media screen and (max-width: 600px) {
 
+    /* nav bar style for screens from 600px wide and down */
+    nav ul {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    nav li {
+        flex: 1 1 0;
+    }
 }
