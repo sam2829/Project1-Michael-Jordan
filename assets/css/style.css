@@ -687,4 +687,18 @@ form>input {
     nav li {
         flex: 1 1 0;
     }
+
+    /* footer style for screens from 600px wide and down */
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        flex-flow: column;
+    }
+
+    footer li {
+        flex: 1 1 1;
+        padding: 1rem;
+    }
 }
