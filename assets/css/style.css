@@ -552,8 +552,8 @@ form>input {
 
 @media screen and (max-width: 950px) {
 
-    * {
-        margin: 5px;
+    body {
+        margin: 0 2px;
     }
 
     /* main section for screen sizes from 950px wide and down */
