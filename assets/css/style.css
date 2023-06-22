@@ -416,9 +416,6 @@ form>input {
     height: auto;
     width: 100%;
     background-color: #333;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 /*
@@ -620,6 +617,38 @@ form>input {
     .pro-quote-4 {
         grid-column: 1/2;
         grid-row: 4/5;
+    }
+
+    /* main section about page for screen sizes 950px wide and down */
+
+    .stat-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .stat-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .stat-3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .stat-4 {
+        grid-column: 1/2;
+        grid-row: 16/17;
+    }
+
+    .stat-5 {
+        grid-column: 1/2;
+        grid-row: 17/18;
+    }
+
+    .stat-6 {
+        grid-column: 1/2;
+        grid-row: 18/19;
     }
 
     /* sub section about page for screen sizes from 950px wide and down */
