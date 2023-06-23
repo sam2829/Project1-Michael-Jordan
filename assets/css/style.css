@@ -356,6 +356,16 @@ footer a {
     border-radius: 6px;
 }
 
+/* grid layout for vote section */
+
+.main-section-vote-grid {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, minmax(100px, auto));
+}
+
 /* style for vote form */
 
 .vote-form {
@@ -366,7 +376,7 @@ footer a {
     max-width: 300px;
     padding: 1.5rem;
     border-radius: 6px;
-    margin-left: 15%;
+    margin: 0 10%;
 }
 
 .vote-form>h2,
