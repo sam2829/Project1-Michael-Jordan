@@ -234,7 +234,7 @@ footer ul {
 }
 
 footer li {
-    flex: 1 1 1;
+    flex: 1 1 0;
     padding: 1rem;
 }
 
@@ -354,6 +354,18 @@ footer a {
     background-color: #333;
     border: 1px solid #ff0000;
     border-radius: 6px;
+}
+
+/* main section vote */
+
+.main-section-vote {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/mj6.jpg);
+    background-color: #333;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* grid layout for vote section */
@@ -821,7 +833,7 @@ form>input {
     }
 
     footer li {
-        flex: 1 1 1;
+        flex: 1 1 0;
         padding: 1rem;
     }
 }
