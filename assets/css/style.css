@@ -63,6 +63,18 @@ nav li {
     flex: 1 1 0;
 }
 
+/* style for sub headings */
+
+h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+
 /* main section and background image */
 
 .main-section {
@@ -80,9 +92,10 @@ nav li {
 .main-section-grid {
     display: grid;
     max-width: 100%;
+    height: auto;
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(8, minmax(100px, auto));
+    grid-template-rows: repeat(7, minmax(100px, auto));
 }
 
 .quote-1 {
@@ -394,6 +407,7 @@ footer a {
 h3 {
     color: #fff;
     margin-bottom: 1.2rem;
+    background: transparent;
 }
 
 .text-input {
