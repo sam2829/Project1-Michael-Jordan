@@ -135,7 +135,9 @@ Vote page screenshot:
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the settings tab.
-  -
+  - Click on the Pages link, in the list on the left hand side of the page.
+  * GitHub Pages should now be showing, scroll down to branch and in the drop down box select branch main. Then click save.
+  * Refresh the page and at the top the link to the site will be provided.
 
 ## Credits
 
