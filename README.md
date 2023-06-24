@@ -1,6 +1,6 @@
 # Greatest of all time!
 
-screen shot of website on different devices
+![Responsive](assets/screenshots/responsive.png)
 
 ## Contents
 
