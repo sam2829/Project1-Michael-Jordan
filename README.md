@@ -56,9 +56,13 @@ The website comprised of 4 pages which are extended from a base template.
 - The the navigation links are placed under the heading and spaced out equally across the page clear to see.
 - The heading and navigation uses font colors that match the colors worn by Michael Jordan when playing for Chicago Bulls.
 
+![Header](assets/screenshots/header.png)
+
 #### Footer
 
 - A footer is displayed on all pages containing links to social
+
+![Footer](assets/screenshots/footer.png)
 
 #### Home Page
 
@@ -67,6 +71,12 @@ The website comprised of 4 pages which are extended from a base template.
 - Sub section where former NBA players are telling past experiences or views of Michael Jordan.
 - The colors used across the page are to match the colors worn my Michael Jordan when playing for the Chicago Bulls.
 
+Home page screenshot 1:
+![Home Page 1](assets/screenshots/home-page-1.png)
+
+Home page screenshot 2:
+![Home Page 2](assets/screenshots/home-page-2.png)
+
 #### About Page
 
 - This contains a background image of Michael Jordan performing a slam dunk.
@@ -74,14 +84,32 @@ The website comprised of 4 pages which are extended from a base template.
 - Sub section showing more stats and accomplishments by Michael Jordan.
 - The colors used across the page are to match the colors worn my Michael Jordan when playing for the Chicago Bulls.
 
+About page screenshot 1:
+![About Page 1](assets/screenshots/about-page-1.png)
+
+About page screenshot 2:
+![About Page 2](assets/screenshots/about-page-2.png)
+
 #### Gallery Page
 
 - Contains images of Michael Jordan showing off his superior skills.
+
+Gallery screenshot 1:
+![Gallery Page 1](assets/screenshots/gallery-page-1.png)
+
+Gallery screenshot 2:
+![Gallery Page 2](assets/screenshots/gallery-page-2.png)
+
+Gallery screenshot 3:
+![Gallery Page 3](assets/screenshots/gallery-page-3.png)
 
 #### Vote Page
 
 - This contains a background image of Michael Jordan performing a slam dunk.
 - Features a form to which you can fill in your personal details and vote for who you think is the greatest of all time.
+
+Vote page screenshot:
+![Vote Page](assets/screenshots/vote-page-1.png)
 
 ## Testing
 
