@@ -128,7 +128,9 @@ Vote page screenshot:
   - No errors were returned when passing through the oiffical (jigsaw) validator.
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
-
+ 
+ Screenshot proving accessibility:
+ ![Accessibility](assets/screenshots/accessibility.png)
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
