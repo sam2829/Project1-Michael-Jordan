@@ -1,39 +1,119 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Greatest of all time!
 
-Welcome,
+screen shot of website on different devices
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Contents
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+- [Project Goals](#project-goals)
 
-## Codeanywhere Reminders
+- [Design](#design)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- [Features](#features)
 
-`python3 -m http.server`
+- [Testing](#testing)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* [Deployment](#deployment)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- [Credits](#credits)
 
-`http_server`
+## Project Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The greatest of all time website trying to show that Michael Jordan was the greatest basketball player of all time.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+User of this website will be able to find plenty of information to support why he was this greatets of all time, including inspirtional quotes from the man himself showing his mentality, quotes from other former NBA players, stats, gallery and a voting form to decide yourself who you think is the greatest of all time.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Design
 
-To log into the Heroku toolbelt CLI:
+### Wireframes
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Wireframes were created to show basic structure of the page to build the website.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Home Page
 
----
+#### About Page
 
-Happy coding!
+#### Gallery Page
+
+#### Vote Page
+
+### Typography
+
+Google Fonts was used to import the chosen fonts for use in the site
+I have used Roboto font on this site. I have chosen this font because i believe it helps make the text clear and brings style to the site.
+
+## Features
+
+The website comprised of 4 pages which are extended from a base template.
+
+- Home Page
+- About Page
+- Gallery Page
+- Vote Page
+
+#### Header
+
+- Features at the top of every page and shows the site heading and contains the navigation links.
+- The the navigation links are placed under the heading and spaced out equally across the page clear to see.
+- The heading and navigation uses font colors that match the colors worn by Michael Jordan when playing for Chicago Bulls.
+
+#### Footer
+
+- A footer is displayed on all pages containing links to social
+
+#### Home Page
+
+- This contains a background image of Michael Jordan performing a slam dunk.
+- Features quotes that Michael Jordan himself has said.
+- Sub section where former NBA players are telling past experiences or views of Michael Jordan.
+- The colors used across the page are to match the colors worn my Michael Jordan when playing for the Chicago Bulls.
+
+#### About Page
+
+- This contains a background image of Michael Jordan performing a slam dunk.
+- Features Stats about Michael Jordan.
+- Sub section showing more stats and accomplishments by Michael Jordan.
+- The colors used across the page are to match the colors worn my Michael Jordan when playing for the Chicago Bulls.
+
+#### Gallery Page
+
+- Contains images of Michael Jordan showing off his superior skills.
+
+#### Vote Page
+
+- This contains a background image of Michael Jordan performing a slam dunk.
+- Features a form to which you can fill in your personal details and vote for who you think is the greatest of all time.
+
+## Testing
+
+- I have tested that the page works in different browsers: Chrome, Firefox
+- I have confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I have confirmed that the header, navigation, footer, main sections and vote form text are all readable and easy to understand.
+- I have confirmed that the form works: requires entries in every field, will only accept an email in the email field and the submit button works.
+- I have confirmed that all navigation links work correctly.
+- I have confirmed that all social media links in the footer work correctly: sending me to the correct site and opening in a new tab.
+
+#### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official W3C validator.
+- CSS
+  - No errors were returned when passing through the oiffical (jigsaw) validator.
+- Accessibility
+  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the settings tab.
+  -
+
+## Credits
+
+#### Content
+
+- The code to make the social media links was taken from the the CI Love Running project.
+- The post address for the vote form was taken from the CI Love Running project.
+
+#### Media
+
+- All images for this project were taken from google images.
