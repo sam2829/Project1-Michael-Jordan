@@ -27,10 +27,6 @@ h1 {
 
 /* nav links bar */
 
-nav {
-    background: #333;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -46,6 +42,7 @@ nav a {
     border-radius: 6px;
     font-size: 1.2rem;
     letter-spacing: 4px;
+    background: #333;
 }
 
 nav a:hover {
@@ -769,7 +766,7 @@ form>input {
         grid-row: 4/5;
     }
 
-    /*  stytle for gallery for screens 1200px wide and down */
+    /*  stytle for gallery for screens 950px wide and down */
 
     .main-section-gallery-grid {
         grid-template-columns: repeat(1, 100%);
