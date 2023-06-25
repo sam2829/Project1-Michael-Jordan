@@ -30,11 +30,19 @@ Wireframes were created to show basic structure of the page to build the website
 
 #### Home Page
 
+![Home Page Wireframe](assets/screenshots/home-wireframe.png)
+
 #### About Page
+
+![About Page Wireframe](assets/screenshots/about-wireframe.png)
 
 #### Gallery Page
 
+![Gallery Page Wireframe](assets/screenshots/gallery-wireframe.png)
+
 #### Vote Page
+
+![Vote Page Wireframe](assets/screenshots/vote-wireframe.png)
 
 ### Typography
 
