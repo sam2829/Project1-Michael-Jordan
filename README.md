@@ -20,7 +20,7 @@
 
 The greatest of all time website trying to show that Michael Jordan was the greatest basketball player of all time.
 
-User of this website will be able to find plenty of information to support why he was this greatets of all time, including inspirtional quotes from the man himself showing his mentality, quotes from other former NBA players, stats, gallery and a voting form to decide yourself who you think is the greatest of all time.
+User of this website will be able to find plenty of information to support why he was this greatest of all time, including inspirational quotes from the man himself showing his mentality, quotes from other former NBA players, stats, gallery and a voting form to decide yourself who you think is the greatest of all time.
 
 ## Design
 
@@ -47,7 +47,7 @@ Wireframes were created to show basic structure of the page to build the website
 ### Typography
 
 Google Fonts was used to import the chosen fonts for use in the site
-I have used Roboto font on this site. I have chosen this font because i believe it helps make the text clear and brings style to the site.
+I have used Roboto font on this site. I have chosen this font because I believe it helps make the text clear and brings style to the site.
 
 ## Features
 
@@ -61,8 +61,8 @@ The website comprised of 4 pages which are extended from a base template.
 #### Header
 
 - Features at the top of every page and shows the site heading and contains the navigation links.
-- The the navigation links are placed under the heading and spaced out equally across the page clear to see.
-- The heading and navigation uses font colors that match the colors worn by Michael Jordan when playing for Chicago Bulls.
+- The navigation links are placed under the heading and spaced out equally across the page clear to see.
+- The heading and navigation use font colors that match the colors worn by Michael Jordan when playing for Chicago Bulls.
 
 ![Header](assets/screenshots/header.png)
 
@@ -133,7 +133,7 @@ Vote page screenshot:
 - HTML
   - No errors were returned when passing through the official W3C validator.
 - CSS
-  - No errors were returned when passing through the oiffical (jigsaw) validator.
+  - No errors were returned when passing through the official (jigsaw) validator.
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
@@ -144,15 +144,15 @@ Screenshot proving accessibility:
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the settings tab.
-  - Click on the Pages link, in the list on the left hand side of the page.
-  * GitHub Pages should now be showing, scroll down to branch and in the drop down box select branch main. Then click save.
+  - Click on the Pages link, in the list on the left-hand side of the page.
+  * GitHub Pages should now be showing, scroll down to branch and in the drop-down box select branch main. Then click save.
   * Refresh the page and at the top the link to the site will be provided.
 
 ## Credits
 
 #### Content
 
-- The code to make the social media links was taken from the the CI Love Running project.
+- The code to make the social media links was taken from the CI Love Running project.
 - The post address for the vote form was taken from the CI Love Running project.
 
 #### Media
