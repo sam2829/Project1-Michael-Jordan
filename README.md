@@ -2,6 +2,10 @@
 
 ![Responsive](assets/screenshots/responsive.png)
 
+Greatest of all time was created as my first milestone project for the Code Institute Level 5 Diploma in Web Application Development.
+
+Link to deployed site: https://sam2829.github.io/Project1-Michael-Jordan/
+
 ## Contents
 
 - [Project Goals](#project-goals)
