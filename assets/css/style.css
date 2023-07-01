@@ -77,10 +77,6 @@ nav li {
 }
 
 .top-nav a {
-    /*color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;*/
     display: block;
 }
 
@@ -96,11 +92,6 @@ nav li {
     background-color: #ddd;
     color: black;
 }
-
-/*.active {
-    background-color: #04AA6D;
-    color: blue;
-}*/
 
 /* style for sub headings */
 

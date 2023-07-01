@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
     <title>Greatest of all time</title>
 </head>
 
@@ -19,20 +21,26 @@
     <header>
         <h1>Greatest of all time!</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="vote.html">Vote</a>
-                </li>
-            </ul>
+            <div class="nav-container">
+                <div class="top-nav">
+                    <a href="gallery.html" class="active">Gallery</a>
+                    <div id="mylinks">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="vote.html">Vote</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
         </nav>
     </header>
     <!--Main section with background image and quotes from michael-->
@@ -73,6 +81,18 @@
 
     <!--font awesome script-->
     <script src="https://kit.fontawesome.com/30bb1d9789.js" crossorigin="anonymous"></script>
+
+    <!--drop down box script-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById('mylinks');
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 
 </html>
