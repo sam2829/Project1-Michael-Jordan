@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
     <title>Greatest of all time</title>
 </head>
 
@@ -19,20 +21,26 @@
     <header>
         <h1>Greatest of all time!</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="vote.html">Vote</a>
-                </li>
-            </ul>
+            <div class="nav-container">
+                <div class="top-nav">
+                    <a href="about.html" class="active">About</a>
+                    <div id="mylinks">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="vote.html">Vote</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
         </nav>
     </header>
     <!--Main section with background image and stats about Michael-->
@@ -116,16 +124,20 @@
     <footer>
         <ul class="social-networks">
             <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-twitter"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-youtube"></i></a>
             </li>
         </ul>
     </footer>

@@ -46,14 +46,61 @@ nav a:hover {
 
 /* nav bar flex box styles */
 
-nav ul {
+/*nav ul {
     display: flex;
     justify-content: center;
 }
 
 nav li {
     flex: 1 1 0;
+}*/
+
+/*nav drop down box*/
+
+.nav-container {
+    max-width: auto;
+    margin: auto;
+    background-color: #555;
+    height: auto;
+    color: white;
+    border-radius: 6px;
 }
+
+.top-nav {
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.top-nav #mylinks {
+    display: none;
+}
+
+.top-nav a {
+    /*color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;*/
+    display: block;
+}
+
+.top-nav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*.active {
+    background-color: #04AA6D;
+    color: blue;
+}*/
 
 /* style for sub headings */
 
@@ -818,7 +865,7 @@ form>input {
 @media screen and (max-width: 600px) {
 
     /* nav bar style for screens from 600px wide and down */
-    nav ul {
+    /* nav ul {
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -826,7 +873,7 @@ form>input {
 
     nav li {
         flex: 1 1 0;
-    }
+    }*/
 
     /* footer style for screens from 600px wide and down */
 
