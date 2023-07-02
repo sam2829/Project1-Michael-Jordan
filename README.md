@@ -174,6 +174,38 @@ Gallery Page:
 Vote Page:
 ![Mobile Vote](assets/screenshots/mobile-vote.png)
 
+### Full Testing
+ Full testing was carried out on the following devices:
+ - Acer Aspire 3 Laptop
+ - Samsung Mobile
+
+Addittional testing was taken by friends and family on a variety of different screen sizes and devices.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass / Fail |
+| --- | --- | --- | --- | --- |
+| `Navbar` |
+|   |   |   |   |   |
+| Dropdown Menu Icon | When clicked the dropdown menu should open, provided links to navigate between pages. | Clicked Dropdown menu icon | Navigation menu appears | Pass |
+| Home Page Link | When clicked the user will be redirected to the home page. | Clicked link | Redirected to home page. | Pass |
+| About Page Link | When clicked the user will be redirected to the about page. | Clicked link | Redirected to about page. | Pass |
+| Gallery Page Link | When clicked the user will be redirected to the gallery page. | Clicked link | Redirected to gallery page. | Pass |
+| Vote Page Link | When clicked the user will be redirected to the vote page. | Clicked link | Redirected to vote page. | Pass |
+| `Footer` |
+|   |   |   |   |   |
+| Facebook Icon | When clicked the user will be taken to facebook website in a new tab. | Clicked icon | Facebook opened in new tab. | Pass |
+| Twitter Icon | When clicked the user will be taken to Twitter website in a new tab. | Clicked icon | Twitter opened in new tab. | Pass |
+| Instagram Icon | When clicked the user will be taken to Instagram website in a new tab. | Clicked icon | Instagram opened in new tab | Pass |
+| Youtube Icon | When clicked the user will be taken to Youtube website in a new tab. | Clicked icon | Youtube opened in new tab | Pass |
+| `Vote Page` |
+|   |   |   |   |   |
+| First Name Input | This is a required field so form should not submit if empty. | Tried to submit form with no value enetered. | Tooltip lets the user know this is a required field. | Pass |
+| Last Name Input | This is a requried field so form should not submit if empty. | Tried to submit with no value entered. | Tooltip lets the user know this is a required field. | Pass |
+| Email Input | This is a required field so form should not submit wihtout email address entered. | Tried to submit with no value entered and then with just text not email address. | With field empty tooltip lets the user know this is a required field. With just text the tooltip lets the user know they need to type in an email address. | Pass |
+| Radiobutton Input | This is a required field so form should not submit wihtout selecting an option. | Tried to submit without selecting an option. | Tooltip lets the user know this is a required field. | Pass |
+| Lets Vote Button | When form has been submitted the page from code institute saying congratulations the form has been correctly should appear. | Clicked lets vote button | Code institute congratulations page appears. | Pass |
+
+
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
