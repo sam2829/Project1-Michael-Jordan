@@ -220,6 +220,7 @@ Additional testing was taken by friends and family on a variety of different scr
 
 - The code to make the social media links was taken from the CI Love Running project.
 - The post address for the vote form was taken from the CI Love Running project.
+- Quotes and statistics were taken from Google and Netflix.
 
 #### Media
 
