@@ -125,7 +125,7 @@ Vote page screenshot:
 
 ## Testing
 
-- I have tested that the page works in different browsers: Chrome, Firefox
+- I have tested that the page works in different browsers: Chrome, Firefox, Microsoft Edge.
 - I have confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 - I have confirmed that the header, navigation, footer, main sections and vote form text are all readable and easy to understand.
 - I have confirmed that the form works: requires entries in every field, will only accept an email in the email field and the submit button works.
@@ -142,7 +142,7 @@ W3C was used to validate the HTML on all pages of the website. It was also used 
   - Gallery page - No errors or warnings found.
   - Vote Page - No errors or warnings found.
 - CSS
-  - No errors or warings were found.
+  - No errors or warnings were found.
 - Accessibility
   - I used Lighthouse within the Chrome Developer Tools to test for accessibility for each page.
 
@@ -175,36 +175,36 @@ Vote Page:
 ![Mobile Vote](assets/screenshots/mobile-vote.png)
 
 ### Full Testing
- Full testing was carried out on the following devices:
- - Acer Aspire 3 Laptop
- - Samsung Mobile
 
-Addittional testing was taken by friends and family on a variety of different screen sizes and devices.
+Full testing was carried out on the following devices:
 
-| Feature | Expected Outcome | Testing Performed | Result | Pass / Fail |
-| --- | --- | --- | --- | --- |
-| `Navbar` |
-|   |   |   |   |   |
-| Dropdown Menu Icon | When clicked the dropdown menu should open, provided links to navigate between pages. | Clicked Dropdown menu icon | Navigation menu appears | Pass |
-| Home Page Link | When clicked the user will be redirected to the home page. | Clicked link | Redirected to home page. | Pass |
-| About Page Link | When clicked the user will be redirected to the about page. | Clicked link | Redirected to about page. | Pass |
-| Gallery Page Link | When clicked the user will be redirected to the gallery page. | Clicked link | Redirected to gallery page. | Pass |
-| Vote Page Link | When clicked the user will be redirected to the vote page. | Clicked link | Redirected to vote page. | Pass |
-| `Footer` |
-|   |   |   |   |   |
-| Facebook Icon | When clicked the user will be taken to facebook website in a new tab. | Clicked icon | Facebook opened in new tab. | Pass |
-| Twitter Icon | When clicked the user will be taken to Twitter website in a new tab. | Clicked icon | Twitter opened in new tab. | Pass |
-| Instagram Icon | When clicked the user will be taken to Instagram website in a new tab. | Clicked icon | Instagram opened in new tab | Pass |
-| Youtube Icon | When clicked the user will be taken to Youtube website in a new tab. | Clicked icon | Youtube opened in new tab | Pass |
-| `Vote Page` |
-|   |   |   |   |   |
-| First Name Input | This is a required field so form should not submit if empty. | Tried to submit form with no value enetered. | Tooltip lets the user know this is a required field. | Pass |
-| Last Name Input | This is a requried field so form should not submit if empty. | Tried to submit with no value entered. | Tooltip lets the user know this is a required field. | Pass |
-| Email Input | This is a required field so form should not submit wihtout email address entered. | Tried to submit with no value entered and then with just text not email address. | With field empty tooltip lets the user know this is a required field. With just text the tooltip lets the user know they need to type in an email address. | Pass |
-| Radiobutton Input | This is a required field so form should not submit wihtout selecting an option. | Tried to submit without selecting an option. | Tooltip lets the user know this is a required field. | Pass |
-| Lets Vote Button | When form has been submitted the page from code institute saying congratulations the form has been correctly should appear. | Clicked lets vote button | Code institute congratulations page appears. | Pass |
+- Acer Aspire 3 Laptop
+- Samsung Mobile
 
+Additional testing was taken by friends and family on a variety of different screen sizes and devices.
 
+| Feature            | Expected Outcome                                                                                                            | Testing Performed                                                                | Result                                                                                                                                                     | Pass / Fail |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| `Navbar`           |
+|                    |                                                                                                                             |                                                                                  |                                                                                                                                                            |             |
+| Dropdown Menu Icon | When clicked the dropdown menu should open, provided links to navigate between pages.                                       | Clicked Dropdown menu icon                                                       | Navigation menu appears                                                                                                                                    | Pass        |
+| Home Page Link     | When clicked the user will be redirected to the home page.                                                                  | Clicked link                                                                     | Redirected to home page.                                                                                                                                   | Pass        |
+| About Page Link    | When clicked the user will be redirected to the about page.                                                                 | Clicked link                                                                     | Redirected to about page.                                                                                                                                  | Pass        |
+| Gallery Page Link  | When clicked the user will be redirected to the gallery page.                                                               | Clicked link                                                                     | Redirected to gallery page.                                                                                                                                | Pass        |
+| Vote Page Link     | When clicked the user will be redirected to the vote page.                                                                  | Clicked link                                                                     | Redirected to vote page.                                                                                                                                   | Pass        |
+| `Footer`           |
+|                    |                                                                                                                             |                                                                                  |                                                                                                                                                            |             |
+| Facebook Icon      | When clicked the user will be taken to Facebook website in a new tab.                                                       | Clicked icon                                                                     | Facebook opened in new tab.                                                                                                                                | Pass        |
+| Twitter Icon       | When clicked the user will be taken to Twitter website in a new tab.                                                        | Clicked icon                                                                     | Twitter opened in new tab.                                                                                                                                 | Pass        |
+| Instagram Icon     | When clicked the user will be taken to Instagram website in a new tab.                                                      | Clicked icon                                                                     | Instagram opened in new tab                                                                                                                                | Pass        |
+| YouTube Icon       | When clicked the user will be taken to YouTube website in a new tab.                                                        | Clicked icon                                                                     | YouTube opened in new tab                                                                                                                                  | Pass        |
+| `Vote Page`        |
+|                    |                                                                                                                             |                                                                                  |                                                                                                                                                            |             |
+| First Name Input   | This is a required field so form should not submit if empty.                                                                | Tried to submit form with no value entered.                                      | Tooltip lets the user know this is a required field.                                                                                                       | Pass        |
+| Last Name Input    | This is a required field so form should not submit if empty.                                                                | Tried to submit with no value entered.                                           | Tooltip lets the user know this is a required field.                                                                                                       | Pass        |
+| Email Input        | This is a required field so form should not submit without email address entered.                                           | Tried to submit with no value entered and then with just text not email address. | With field empty tooltip lets the user know this is a required field. With just text the tooltip lets the user know they need to type in an email address. | Pass        |
+| Radio Button Input | This is a required field so form should not submit without selecting an option.                                             | Tried to submit without selecting an option.                                     | Tooltip lets the user know this is a required field.                                                                                                       | Pass        |
+| Let's Vote Button  | When form has been submitted the page from code institute saying congratulations the form has been correctly should appear. | Clicked let's vote button                                                        | Code institute congratulations page appears.                                                                                                               | Pass        |
 
 ## Deployment
 
