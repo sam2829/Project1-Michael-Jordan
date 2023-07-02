@@ -44,17 +44,6 @@ nav a:hover {
     background-color: #555;
 }
 
-/* nav bar flex box styles */
-
-/*nav ul {
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    flex: 1 1 0;
-}*/
-
 /*nav drop down box*/
 
 .nav-container {
@@ -854,17 +843,6 @@ form>input {
 
 /* media queries for medium size screens from 600px wide and down */
 @media screen and (max-width: 600px) {
-
-    /* nav bar style for screens from 600px wide and down */
-    /* nav ul {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-    }
-
-    nav li {
-        flex: 1 1 0;
-    }*/
 
     /* footer style for screens from 600px wide and down */
 

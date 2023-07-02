@@ -134,15 +134,45 @@ Vote page screenshot:
 
 #### Validator Testing
 
-- HTML
-  - No errors were returned when passing through the official W3C validator.
-- CSS
-  - No errors were returned when passing through the official (jigsaw) validator.
-- Accessibility
-  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+W3C was used to validate the HTML on all pages of the website. It was also used to validate the CSS. I have checked the HTML via direct input.
 
-Screenshot proving accessibility:
-![Accessibility](assets/screenshots/accessibility.png)
+- HTML W3C Validator
+  - Index Page - No errors or warnings found.
+  - About Page - No errors or warnings found.
+  - Gallery page - No errors or warnings found.
+  - Vote Page - No errors or warnings found.
+- CSS
+  - No errors or warings were found.
+- Accessibility
+  - I used Lighthouse within the Chrome Developer Tools to test for accessibility for each page.
+
+#### Desktop
+
+Index page:
+![Desktop Home](assets/screenshots/desktop-home.png)
+
+About Page:
+![Desktop About](assets/screenshots/desktop-about.png)
+
+Gallery Page:
+![Desktop Gallery](assets/screenshots/desktop-gallery.png)
+
+Vote Page:
+![Desktop Vote](assets/screenshots/desktop-vote.png)
+
+#### Mobile
+
+Index page:
+![Mobile Home](assets/screenshots/mobile-home.png)
+
+About Page:
+![Mobile About](assets/screenshots/mobile-about.png)
+
+Gallery Page:
+![Mobile Gallery](assets/screenshots/mobile-gallery.png)
+
+Vote Page:
+![Mobile Vote](assets/screenshots/mobile-vote.png)
 
 ## Deployment
 
