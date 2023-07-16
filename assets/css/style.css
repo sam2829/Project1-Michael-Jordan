@@ -862,11 +862,20 @@ form>input {
     }
 }
 
-
+/* media queries to hide dropdown menu icon for screens 992px wide and above and put navigation menu across the page */
 @media screen and (min-width: 992px) {
 
     .top-nav a.icon {
         display: none
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav li {
+        flex: 1 1 0;
     }
 
 }
