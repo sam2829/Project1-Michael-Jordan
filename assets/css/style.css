@@ -843,6 +843,10 @@ form>input {
 /* media queries for medium size screens from 600px wide and down */
 @media screen and (max-width: 600px) {
 
+    h1 {
+        font-size: 2rem;
+    }
+
     /* footer style for screens from 600px wide and down */
 
     footer ul {
