@@ -874,7 +874,12 @@ form>input {
         display: none
     }
 
-    .nav ul {
+    .top-nav #mylinks {
+        display: revert;
+        padding-left: 0%;
+    }
+
+    #mylinks ul {
         display: flex;
         justify-content: center;
         width: 100%;
