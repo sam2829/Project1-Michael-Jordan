@@ -885,7 +885,7 @@ form>input {
         width: 100%;
     }
 
-    .nav li {
+    #mylinks li {
         flex: 1 1 0;
     }
 
