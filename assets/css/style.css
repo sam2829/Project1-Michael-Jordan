@@ -874,8 +874,12 @@ form>input {
         display: none
     }
 
+    .top-nav>a {
+        display: none;
+    }
+
     .top-nav #mylinks {
-        display: revert;
+        display: block;
         padding-left: 0%;
     }
 
