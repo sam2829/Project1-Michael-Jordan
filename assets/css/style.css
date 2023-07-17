@@ -869,12 +869,13 @@ form>input {
         display: none
     }
 
-    nav ul {
+    .nav ul {
         display: flex;
         justify-content: center;
+        width: 100%;
     }
 
-    nav li {
+    .nav li {
         flex: 1 1 0;
     }
 
