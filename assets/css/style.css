@@ -62,7 +62,6 @@ nav a:hover {
 
 .top-nav #mylinks {
     display: none;
-    padding-left: 60%;
 }
 
 .top-nav a {
@@ -663,15 +662,15 @@ form>input {
     }
 }
 
-/* media queries for medium size screens from 950px wide and down */
+/* media queries for medium size screens from 992px wide and down */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 992px) {
 
     body {
         margin: 0 2px;
     }
 
-    /* main section for screen sizes from 950px wide and down */
+    /* main section for screen sizes from 992px wide and down */
     .main-section {
         height: auto;
     }
@@ -711,7 +710,7 @@ form>input {
         grid-row: 18/19;
     }
 
-    /* sub section main page for screen sizes from 950px wide and down */
+    /* sub section main page for screen sizes from 992px wide and down */
 
     .others-sub-section {
         grid-template-columns: repeat(1, 1fr);
@@ -738,7 +737,7 @@ form>input {
         grid-row: 4/5;
     }
 
-    /* main section about page for screen sizes 950px wide and down */
+    /* main section about page for screen sizes 992px wide and down */
 
     .stat-1 {
         grid-column: 1/2;
@@ -770,7 +769,7 @@ form>input {
         grid-row: 18/19;
     }
 
-    /* sub section about page for screen sizes from 950px wide and down */
+    /* sub section about page for screen sizes from 992px wide and down */
 
     .stat-quote-1 {
         grid-column: 1/2;
@@ -792,7 +791,7 @@ form>input {
         grid-row: 4/5;
     }
 
-    /*  stytle for gallery for screens 950px wide and down */
+    /*  stytle for gallery for screens 992px wide and down */
 
     .main-section-gallery-grid {
         grid-template-columns: repeat(1, 100%);
@@ -843,6 +842,12 @@ form>input {
         grid-column: 1/2;
         grid-row: 9/10;
     }
+
+    /*hide nav bar for large screens so only drop down menu now appears */
+
+    .nav-bar-bigscreen {
+        display: none;
+    }
 }
 
 /* media queries for medium size screens from 600px wide and down */
@@ -870,27 +875,20 @@ form>input {
 /* media queries to hide dropdown menu icon for screens 992px wide and above and put navigation menu across the page */
 @media screen and (min-width: 992px) {
 
-    .top-nav a.icon {
-        display: none
-    }
-
-    .top-nav>a {
-        display: none;
-    }
-
-    .top-nav #mylinks {
-        display: block;
-        padding-left: 0%;
-    }
-
-    #mylinks ul {
+    /* style for nav bar when screens 992px wide and above */
+    .nav-bar-bigscreen ul {
         display: flex;
         justify-content: center;
         width: 100%;
     }
 
-    #mylinks li {
+    .nav-bar-bigscreen li {
         flex: 1 1 0;
+    }
+
+    /* hide drop down menu nav bar when screen sizes 992px wide and down*/
+    .nav-container {
+        display: none;
     }
 
 }
