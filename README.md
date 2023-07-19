@@ -65,10 +65,14 @@ The website comprised of 4 pages which are extended from a base template.
 #### Header
 
 - Features at the top of every page and shows the site heading and contains the navigation links.
-- The navigation links are placed under a dropdown menu which is accessible by clicking on the menu icon on the right hand side of the page.
-- The heading and navigation use font colors that match the colors worn by Michael Jordan when playing for Chicago Bulls.
+- The navigation links are clearly spread across the page and used to navigate around the site.
+- The navigation links go into a drop down menu once the screen size goes below 992px wide.
 
+Screenshot of header in full screen:
 ![Header](assets/screenshots/header.png)
+
+Screenshot of header in mobile screen and drop down menu:
+![Headermobile](assets/screenshots/header2.png)
 
 #### Footer
 
