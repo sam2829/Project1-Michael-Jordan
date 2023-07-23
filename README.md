@@ -232,3 +232,7 @@ Additional testing was taken by friends and family on a variety of different scr
 #### Media
 
 - All images for this project were taken from google images.
+
+#### Javascript
+
+- Javascript code for mobile drop down menu was taken from w3schools create a mobile navigation menu.
