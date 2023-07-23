@@ -46,7 +46,7 @@ nav a:hover {
 /*nav drop down box*/
 
 .nav-container {
-    max-width: auto;
+    width: auto;
     margin: auto;
     background-color: #555;
     height: auto;
