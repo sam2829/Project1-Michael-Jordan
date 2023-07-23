@@ -22,9 +22,9 @@ Link to deployed site: https://sam2829.github.io/Project1-Michael-Jordan/
 
 ## Project Goals
 
-The greatest of all time website trying to show that Michael Jordan was the greatest basketball player of all time.
+The greatest of all time website is trying to show that Michael Jordan was the greatest basketball player of all time.
 
-User of this website will be able to find plenty of information to support why he was this greatest of all time, including inspirational quotes from the man himself showing his mentality, quotes from other former NBA players, stats, gallery and a voting form to decide yourself who you think is the greatest of all time.
+User of this website will be able to find plenty of information to support why he was the greatest of all time, including inspirational quotes from the man himself showing his mentality, quotes from other former NBA players, stats, gallery and a voting form to decide yourself who you think is the greatest of all time.
 
 ## Design
 
