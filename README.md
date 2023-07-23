@@ -66,12 +66,12 @@ The website comprised of 4 pages which are extended from a base template.
 
 - Features at the top of every page and shows the site heading and contains the navigation links.
 - The navigation links are clearly spread across the page and used to navigate around the site.
-- The navigation links go into a drop down menu once the screen size goes below 992px wide.
+- The navigation links go into a drop-down menu once the screen size goes below 992px wide.
 
 Screenshot of header in full screen:
 ![Header](assets/screenshots/header.png)
 
-Screenshot of header in mobile screen and drop down menu:
+Screenshot of header in mobile screen and drop-down menu:
 ![Headermobile](assets/screenshots/header2.png)
 
 #### Footer
@@ -215,7 +215,7 @@ Additional testing was taken by friends and family on a variety of different scr
 |                        |                                                                                                                             |                                                                                  |                                                                                                                                                            |             |
 | First Name Input       | This is a required field so form should not submit if empty.                                                                | Tried to submit form with no value entered.                                      | Tooltip lets the user know this is a required field.                                                                                                       | Pass        |
 | Last Name Input        | This is a required field so form should not submit if empty.                                                                | Tried to submit with no value entered.                                           | Tooltip lets the user know this is a required field.                                                                                                       | Pass        |
-| Email Input            | This is a required field so form should not submit without email address entered.                                           | Tried to submit with no value entered and then with just text not email address. | With field empty tooltip lets the user know this is a required field. With just text the tooltip lets the user know they need to type in an email address. | Pass        |
+| Email Input            | This is a required field so form should not submit without email address entered.                                           | Tried to submit with no value entered and then with just text not an email address. | With field empty tooltip lets the user know this is a required field. With just text the tooltip lets the user know they need to type in an email address. | Pass        |
 | Radio Button Input     | This is a required field so form should not submit without selecting an option.                                             | Tried to submit without selecting an option.                                     | Tooltip lets the user know this is a required field.                                                                                                       | Pass        |
 | Let's Vote Button      | When form has been submitted the page from code institute saying congratulations the form has been correctly should appear. | Clicked let's vote button                                                        | Code institute congratulations page appears.                                                                                                               | Pass        |
 
@@ -239,6 +239,6 @@ Additional testing was taken by friends and family on a variety of different scr
 
 - All images for this project were taken from google images.
 
-#### Javascript
+#### JavaScript
 
-- Javascript code for mobile drop down menu was taken from w3schools create a mobile navigation menu.
+- JavaScript code for mobile drop-down menu was taken from w3schools create a mobile navigation menu.
